@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRentalApi", "MovieRentalApi\MovieRentalApi.csproj", "{2E71FA12-33D3-48D3-A5DA-B041869BFB1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRentalApi", "MovieRentalApi\MovieRentalApi.csproj", "{2E71FA12-33D3-48D3-A5DA-B041869BFB1E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MovieRentalDatabase", "MovieRentalDatabase\MovieRentalDatabase.sqlproj", "{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOLibrary", "ADOLibrary\ADOLibrary.csproj", "{1D50B104-25FA-4753-80E5-8752DC523959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRentalDAL", "MovieRentalDAL\MovieRentalDAL.csproj", "{B4875043-71B9-4945-A120-779D8A59AC25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,20 @@ Global
 		{2E71FA12-33D3-48D3-A5DA-B041869BFB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E71FA12-33D3-48D3-A5DA-B041869BFB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E71FA12-33D3-48D3-A5DA-B041869BFB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEF0E58-8FBB-4F2A-B5D5-95632D9FA920}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1D50B104-25FA-4753-80E5-8752DC523959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D50B104-25FA-4753-80E5-8752DC523959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D50B104-25FA-4753-80E5-8752DC523959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D50B104-25FA-4753-80E5-8752DC523959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4875043-71B9-4945-A120-779D8A59AC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4875043-71B9-4945-A120-779D8A59AC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4875043-71B9-4945-A120-779D8A59AC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4875043-71B9-4945-A120-779D8A59AC25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi.csproj": {}
+    "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\ADOLibrary\\ADOLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi.csproj": {
+    "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\ADOLibrary\\ADOLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi.csproj",
-        "projectName": "MovieRentalApi",
-        "projectPath": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi.csproj",
+        "projectUniqueName": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\ADOLibrary\\ADOLibrary.csproj",
+        "projectName": "ADOLibrary",
+        "projectPath": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\ADOLibrary\\ADOLibrary.csproj",
         "packagesPath": "C:\\Users\\riche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\MovieRentalApi\\obj\\",
+        "outputPath": "C:\\Users\\riche\\source\\repos\\MovieRentalApi\\MovieRentalApi\\ADOLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -54,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
