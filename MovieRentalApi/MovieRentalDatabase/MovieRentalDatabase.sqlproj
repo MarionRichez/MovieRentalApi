@@ -9,8 +9,7 @@
     <ProjectGuid>{aeef0e58-8fbb-4f2a-b5d5-95632d9fa920}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>MovieRentalDatabase</RootNamespace>
     <AssemblyName>MovieRentalDatabase</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
@@ -48,7 +47,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -56,5 +54,52 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="StoredProcedure" />
+    <Folder Include="StoredProcedure\Actor" />
+    <Folder Include="StoredProcedure\Auth" />
+    <Folder Include="StoredProcedure\Category" />
+    <Folder Include="StoredProcedure\Film" />
+    <Folder Include="StoredProcedure\Rental" />
+    <Folder Include="Type" />
+    <Folder Include="Functions" />
+    <Folder Include="Views" />
+    <Folder Include="StoredProcedure\Languages" />
+    <Folder Include="Scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Actor.sql" />
+    <Build Include="Tables\Category.sql" />
+    <Build Include="Tables\Customer.sql" />
+    <Build Include="Tables\Film.sql" />
+    <Build Include="Tables\Language.sql" />
+    <Build Include="Tables\Rating.sql" />
+    <Build Include="Tables\FilmActor.sql" />
+    <Build Include="Tables\FilmCategory.sql" />
+    <Build Include="Tables\Rental.sql" />
+    <Build Include="Tables\RentalDetail.sql" />
+    <Build Include="StoredProcedure\Category\GetCategories.sql" />
+    <Build Include="StoredProcedure\Actor\GetActorsByFilm.sql" />
+    <Build Include="StoredProcedure\Actor\GetActorsByInitial.sql" />
+    <Build Include="StoredProcedure\Actor\GetActorInitials.sql" />
+    <Build Include="StoredProcedure\Actor\GetActors.sql" />
+    <Build Include="StoredProcedure\Rental\CreateRental.sql" />
+    <Build Include="Type\FilmIds.sql" />
+    <Build Include="StoredProcedure\Auth\CheckCustomer.sql" />
+    <Build Include="StoredProcedure\Auth\RegisterCustomer.sql" />
+    <Build Include="Functions\GetPostHash.sql" />
+    <Build Include="Functions\GetPreHash.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmByTitle.sql" />
+    <Build Include="StoredProcedure\Film\GetFilms.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmsByActor.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmsByCategory.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmById.sql" />
+    <Build Include="Views\V_Film.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmsByKeyword.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmsByLanguage.sql" />
+    <Build Include="StoredProcedure\Languages\GetLanguages.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
