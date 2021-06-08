@@ -7,10 +7,6 @@ namespace MovieRentalDAL.Services
 {
     public interface IService<Tkey, TEntity> where TEntity : IEntity<Tkey>
     {
-        Tkey Insert(TEntity entity);
-        TEntity GetById(Tkey key);
-        IEnumerable<TEntity> GetAll();
-        bool Update(TEntity entity);
-        bool Delete(Tkey key);
+        IEnumerable<TEntity> Get();
     }
 }

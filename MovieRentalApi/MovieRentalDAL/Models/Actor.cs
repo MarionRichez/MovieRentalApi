@@ -7,18 +7,16 @@ namespace MovieRentalDAL.Models
     public class Actor : IEntity<int>
     {
         public int Id { get; set; }
-        public int ActorId { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
 
-        public Actor(int actorId, string lastName, string firstName)
+        public Actor(string lastName, string firstName)
         {
-            ActorId = actorId;
             LastName = lastName;
             FirstName = firstName;
         }
 
-        public Actor(int id, int actorId, string lastName, string firstName) : this(actorId, lastName, firstName)
+        public Actor(int id, string lastName, string firstName) : this(lastName, firstName)
         {
             Id = id;
         }

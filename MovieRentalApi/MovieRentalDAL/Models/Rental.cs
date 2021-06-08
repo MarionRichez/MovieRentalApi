@@ -7,16 +7,16 @@ namespace MovieRentalDAL.Models
     public class Rental : IEntity<int>
     {
         public int Id { get; set; }
-        public DateTime RentalDate { get; set; }
         public int CustomerId { get; set; }
+        public int[] FilmIds { get; set; }
 
-        public Rental(DateTime rentalDate, int customerId)
+        public Rental(int customerId, int[] filmIds)
         {
-            RentalDate = rentalDate;
             CustomerId = customerId;
+            FilmIds = filmIds;
         }
 
-        public Rental(int id, DateTime rentalDate, int customerId) : this(rentalDate, customerId)
+        public Rental(int id, int customerId, int[] filmIds) : this(customerId, filmIds)
         {
             Id = id;
         }

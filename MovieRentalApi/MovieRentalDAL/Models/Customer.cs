@@ -22,6 +22,14 @@ namespace MovieRentalDAL.Models
             Password = password;
         }
 
+        public Customer(int id, string lastName, string firstName, string email)
+        {
+            Id = id;
+            LastName = lastName;
+            FirstName = firstName;
+            Email = email;
+        }
+
         public Customer(int id, string lastName, string firstName, string email, string password) : this(lastName, firstName, email, password)
         {
             Id = id;

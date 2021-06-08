@@ -12,13 +12,9 @@ namespace MovieRentalDAL.Services
 
         public ServiceBase()
         {
-            this.connection = new Connection(@"");
+            this.connection = new Connection(@"Data Source=LAPTOP-KPUOAHT1;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False");
         }
 
-        public abstract bool Delete(Tkey key);
-        public abstract IEnumerable<TEntity> GetAll();
-        public abstract TEntity GetById(Tkey key);
-        public abstract Tkey Insert(TEntity entity);
-        public abstract bool Update(TEntity entity);
+        public abstract IEnumerable<TEntity> Get();
     }
 }

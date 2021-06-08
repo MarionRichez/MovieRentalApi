@@ -1,0 +1,12 @@
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\bin\Debug\netcoreapp3.1\MovieRentalDAL.deps.json
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\bin\Debug\netcoreapp3.1\MovieRentalDAL.dll
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\bin\Debug\netcoreapp3.1\MovieRentalDAL.pdb
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\bin\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\bin\Debug\netcoreapp3.1\ADOLibrary.pdb
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.csproj.AssemblyReference.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.AssemblyInfoInputs.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.AssemblyInfo.cs
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.csproj.CoreCompileInputs.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.csproj.CopyComplete
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.dll
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDAL\obj\Debug\netcoreapp3.1\MovieRentalDAL.pdb

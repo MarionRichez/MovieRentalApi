@@ -20,7 +20,7 @@ namespace MovieRentalDAL.Services
             );
         }
 
-        public override IEnumerable<Actor> GetAll()
+        public override IEnumerable<Actor> Get()
         {
             Command cmd = new Command("GetActors", true);
             return connection.ExecuteReader(cmd, Converter);
@@ -28,7 +28,7 @@ namespace MovieRentalDAL.Services
 
         public IEnumerable<Actor> GetByFilm(int filmId)
         {
-            Command cmd = new Command("GetActorsByInitial", true);
+            Command cmd = new Command("GetActorsByFilm", true);
             cmd.AddParameter("filmId", filmId);
             return connection.ExecuteReader(cmd, Converter);
         }
@@ -44,26 +44,6 @@ namespace MovieRentalDAL.Services
         {
             Command cmd = new Command("GetActorInitials", true);
             return connection.ExecuteReader(cmd, Converter).Select(item =>item.LastName).ToList();
-        }
-
-        public override bool Delete(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public override Actor GetById(int key)
-        {
-            throw new NotImplementedException();
-        }
-
-        public override int Insert(Actor entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public override bool Update(Actor entity)
-        {
-            throw new NotImplementedException();
         }
     }
 }
