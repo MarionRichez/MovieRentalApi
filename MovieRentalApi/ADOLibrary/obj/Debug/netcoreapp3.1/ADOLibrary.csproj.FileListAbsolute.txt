@@ -1,0 +1,9 @@
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.deps.json
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.pdb
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.csproj.AssemblyReference.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.AssemblyInfoInputs.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.AssemblyInfo.cs
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.pdb
