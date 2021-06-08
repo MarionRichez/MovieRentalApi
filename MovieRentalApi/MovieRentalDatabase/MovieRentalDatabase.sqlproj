@@ -89,7 +89,7 @@
     <Build Include="StoredProcedure\Auth\RegisterCustomer.sql" />
     <Build Include="Functions\GetPostHash.sql" />
     <Build Include="Functions\GetPreHash.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmByTitle.sql" />
+    <Build Include="StoredProcedure\Film\GetFilmsByTitle.sql" />
     <Build Include="StoredProcedure\Film\GetFilms.sql" />
     <Build Include="StoredProcedure\Film\GetFilmsByActor.sql" />
     <Build Include="StoredProcedure\Film\GetFilmsByCategory.sql" />
@@ -101,5 +101,8 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MovieRentalDatabase.publish.xml" />
   </ItemGroup>
 </Project>

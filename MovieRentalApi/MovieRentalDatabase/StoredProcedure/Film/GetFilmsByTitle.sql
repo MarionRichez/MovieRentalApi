@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[GetFilmByTitle]
+﻿CREATE PROCEDURE [dbo].[GetFilmsByTitle]
 	@title NVARCHAR(255)
 AS
 BEGIN
