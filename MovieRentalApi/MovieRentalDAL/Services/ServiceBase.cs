@@ -12,7 +12,7 @@ namespace MovieRentalDAL.Services
 
         public ServiceBase()
         {
-            this.connection = new Connection(@"Data Source=LAPTOP-KPUOAHT1;Initial Catalog=MovieRentalDatabase;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            connection = new Connection(@"Data Source=LAPTOP-KPUOAHT1;Initial Catalog=MovieRentalDatabase;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             
         }
 
