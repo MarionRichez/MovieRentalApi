@@ -12,7 +12,8 @@ namespace MovieRentalDAL.Services
 
         public ServiceBase()
         {
-            this.connection = new Connection(@"Data Source=LAPTOP-KPUOAHT1;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False");
+            this.connection = new Connection(@"Data Source=LAPTOP-KPUOAHT1;Initial Catalog=MovieRentalDatabase;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            
         }
 
         public abstract IEnumerable<TEntity> Get();

@@ -2,9 +2,5 @@ C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\bi
 C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\bin\Debug\MovieRentalDatabase.dll
 C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\bin\Debug\MovieRentalDatabase.pdb
 C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.sqlproj.AssemblyReference.cache
-C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\Model.xml
-C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\refactor.xml
-C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\postdeploy.sql
-C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\predeploy.sql
 C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.dll
 C:\Users\riche\source\repos\MovieRentalApi\MovieRentalApi\MovieRentalDatabase\obj\Debug\MovieRentalDatabase.pdb
