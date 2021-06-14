@@ -16,12 +16,12 @@ namespace MovieRentalDAL.Services
                 reader["Title"].ToString(),
                 reader["Description"].ToString(),
                 (int)reader["ReleaseYear"],
-                (int)reader["LanguageId"],
+                reader["Language"].ToString(),
                 (int)reader["RentalDuration"],
                 (decimal)reader["RentalPrice"],
                 (int)reader["Length"],
                 (decimal)reader["ReplacementCost"],
-                (int)reader["RatingId"]
+                reader["Rating"].ToString()
                 );
         }
         public override IEnumerable<Film> Get()
@@ -53,7 +53,7 @@ namespace MovieRentalDAL.Services
 
         public IEnumerable<Film> GetByCategory(int categoryId)
         {
-            Command cmd = new Command("GetFilmsByActor", true);
+            Command cmd = new Command("GetFilmsByCategory", true);
             cmd.AddParameter("CategoryId", categoryId);
             return connection.ExecuteReader<Film>(cmd, Converter);
         }

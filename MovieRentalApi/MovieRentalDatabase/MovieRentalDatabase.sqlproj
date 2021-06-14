@@ -55,17 +55,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
-    <Folder Include="StoredProcedure" />
-    <Folder Include="StoredProcedure\Actor" />
-    <Folder Include="StoredProcedure\Auth" />
-    <Folder Include="StoredProcedure\Category" />
-    <Folder Include="StoredProcedure\Film" />
-    <Folder Include="StoredProcedure\Rental" />
-    <Folder Include="Type" />
-    <Folder Include="Functions" />
     <Folder Include="Views" />
-    <Folder Include="StoredProcedure\Languages" />
     <Folder Include="Scripts" />
+    <Folder Include="Programmability" />
+    <Folder Include="Programmability\StoredProcedure" />
+    <Folder Include="Programmability\StoredProcedure\Actor" />
+    <Folder Include="Programmability\StoredProcedure\Auth" />
+    <Folder Include="Programmability\StoredProcedure\Category" />
+    <Folder Include="Programmability\StoredProcedure\Film" />
+    <Folder Include="Programmability\StoredProcedure\Rental" />
+    <Folder Include="Programmability\Functions" />
+    <Folder Include="Programmability\Type" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Actor.sql" />
@@ -78,26 +78,25 @@
     <Build Include="Tables\FilmCategory.sql" />
     <Build Include="Tables\Rental.sql" />
     <Build Include="Tables\RentalDetail.sql" />
-    <Build Include="StoredProcedure\Category\GetCategories.sql" />
-    <Build Include="StoredProcedure\Actor\GetActorsByFilm.sql" />
-    <Build Include="StoredProcedure\Actor\GetActorsByInitial.sql" />
-    <Build Include="StoredProcedure\Actor\GetActorInitials.sql" />
-    <Build Include="StoredProcedure\Actor\GetActors.sql" />
-    <Build Include="StoredProcedure\Rental\CreateRental.sql" />
-    <Build Include="Type\FilmIds.sql" />
-    <Build Include="StoredProcedure\Auth\CheckCustomer.sql" />
-    <Build Include="StoredProcedure\Auth\RegisterCustomer.sql" />
-    <Build Include="Functions\GetPostHash.sql" />
-    <Build Include="Functions\GetPreHash.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmsByTitle.sql" />
-    <Build Include="StoredProcedure\Film\GetFilms.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmsByActor.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmsByCategory.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmById.sql" />
     <Build Include="Views\V_Film.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmsByKeyword.sql" />
-    <Build Include="StoredProcedure\Film\GetFilmsByLanguage.sql" />
-    <Build Include="StoredProcedure\Languages\GetLanguages.sql" />
+    <Build Include="Programmability\StoredProcedure\Actor\GetActorInitials.sql" />
+    <Build Include="Programmability\StoredProcedure\Actor\GetActors.sql" />
+    <Build Include="Programmability\StoredProcedure\Actor\GetActorsByFilm.sql" />
+    <Build Include="Programmability\StoredProcedure\Actor\GetActorsByInitial.sql" />
+    <Build Include="Programmability\StoredProcedure\Auth\CheckCustomer.sql" />
+    <Build Include="Programmability\StoredProcedure\Auth\RegisterCustomer.sql" />
+    <Build Include="Programmability\StoredProcedure\Category\GetCategories.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmById.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilms.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmsByActor.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmsByCategory.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmsByKeyword.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmsByLanguage.sql" />
+    <Build Include="Programmability\StoredProcedure\Film\GetFilmsByTitle.sql" />
+    <Build Include="Programmability\StoredProcedure\Rental\CreateRental.sql" />
+    <Build Include="Programmability\Functions\GetPostHash.sql" />
+    <Build Include="Programmability\Functions\GetPreHash.sql" />
+    <Build Include="Programmability\Type\FilmIds.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
